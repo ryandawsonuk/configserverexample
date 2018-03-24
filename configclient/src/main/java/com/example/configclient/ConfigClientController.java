@@ -14,6 +14,8 @@ public class ConfigClientController {
 
     @GetMapping
     public String hello(){
-        return "Hello "+message;
+        return message;
     }
+
+
 }
